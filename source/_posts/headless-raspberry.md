@@ -44,7 +44,10 @@ This will create an empty file called ssh which will tell the raspberry to enabl
 
 Then to automatically connect to your wifi, run:
 
+```bash
 sudo nano /Volumes/boot/wpa_supplicant.conf
+```
+
 This will open an editor where you past this:
 
 ```bash
@@ -58,7 +61,7 @@ psk=”NETWORK-PASSWORD”
 
 The SSID is the name of your network and PSK is the password. Also change the coutry depending on where you are.
 
-Press control + y to save and quit nano.
+Press `control + y` to save and quit nano.
 
 This will create an empty file called ssh which will tell the raspberry to enable remote control when it boots.
 
@@ -96,10 +99,10 @@ sudo raspi-config
 
 {% asset_img HeadlessRaspberry-3.webp %}
 
-- Select “Interface Options”
-- Click on VNC
-- Click on YES
-- Select Finish
+- Select `“Interface Options”`
+- Click on `VNC`
+- Click on `YES`
+- Select `Finish`
 
 Now that VNC is enabled on the Raspberry, we need to install a client on our Mac.
 
