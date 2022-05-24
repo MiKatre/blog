@@ -12,8 +12,6 @@ tags:
 
 How to setup a raspberry pi without a monitor, keyboard or mouse.
 
-<!-- More -->
-
 This quick tutorial will show you how to download and install Raspbian OS in your memory card, then configure everything (including Wifi) entirely from your mac. So when you turn on your raspberry, you can directly connect to it and control it remotely.
 
 We call headless setup a computer (Raspberry Pi) that is setup to work without monitor or mouse or keyboard.
@@ -22,11 +20,11 @@ We call headless setup a computer (Raspberry Pi) that is setup to work without m
 
 You no longer have to download the image and install it manually. Instead, you just download Raspberry Pi Imager from this link and install it.
 
-![](HeadlessRaspberry-1.webp)
+{% asset_img HeadlessRaspberry-1.webp %}
 
 Select an operating system ( I used Raspberry Pi OS), an SD Card and click write.
 
-![](HeadlessRaspberry-2.webp)
+{% asset_img HeadlessRaspberry-2.webp %}
 
 You now have Raspberry Pi OS installed and can insert it in your raspberry if you have a keyboard and a monitor. If not, keep following along.
 
@@ -96,7 +94,7 @@ In the same terminal, type:
 sudo raspi-config
 ```
 
-![](HeadlessRaspberry-3.webp)
+{% asset_img HeadlessRaspberry-3.webp %}
 
 - Select “Interface Options”
 - Click on VNC
@@ -109,8 +107,8 @@ I chose VNC Viewer. You can get it here.
 
 As before, the adress is raspberrypi.local, the default username is pi and the default password is raspberry.
 
-![](HeadlessRaspberry-4.webp)
+{% asset_img HeadlessRaspberry-4.webp %}
 
 After being guided through some useful configuration steps, such as changing the default password, you have arrived:
 
-![](HeadlessRaspberry-5.webp)
+{% asset_img HeadlessRaspberry-5.webp %}
