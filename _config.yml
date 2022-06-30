@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: ideescadeauxoriginaux.net
+title: mdp.is
 subtitle: ""
 description: ""
 keywords:
-author: ideescadeauxoriginaux
-language: fr
+author: Micadep
+language: en
 timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://www.ideescadeauxoriginaux.net
+url: https://mdp.is
 permalink: :title/
 permalink_defaults:
 pretty_urls:
