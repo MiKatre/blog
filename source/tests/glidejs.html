@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css">
+</head>
+
+<body>
+
+    <div class="glider-contain">
+        <div class="glider">
+            <a href="/t/charade">
+                <img src="https://img.cinetimes.org/img/cache/fe/c4/fec4290be3bcd478eb66d5da8c8ea4ce.jpg" class="pr-2"
+                    width="179" height="256">
+            </a>
+            <a href="/t/charade"><img
+                    src="https://img.cinetimes.org/img/cache/09/b5/09b53e7c649c512dc8f044a9ce46b187.jpg" class="pr-2"
+                    height="256"></a>
+            <a href="/t/charade"><img
+                    src="https://img.cinetimes.org/img/cache/04/09/04098edc68c0ba5650ddc5d9c8f87d68.jpg" class="pr-2"
+                    height="256"></a>
+        </div>
+
+        <button aria-label="Previous" class="glider-prev">«</button>
+        <button aria-label="Next" class="glider-next">»</button>
+        <div role="tablist" class="dots"></div>
+    </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            new Glider(document.querySelector('.glider'), {
+                slidesToScroll: 1,
+                slidesToShow: 1.9,
+                draggable: true,
+                dragVelocity: 1,
+                dots: '.dots',
+                arrows: {
+                    prev: '.glider-prev',
+                    next: '.glider-next'
+                }
+            })
+        })
+    </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+</body>
+
+</html>
