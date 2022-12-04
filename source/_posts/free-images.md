@@ -2,6 +2,7 @@
 layout: post
 title: Free images online
 desc: The best ressources to get images for your projects.
+date: 2020-01-10
 categories:
   - Ressources
 tags:
@@ -11,8 +12,6 @@ tags:
 The best ressources to get images for your projects.
 
 I have listed the best free and royalty-free image banks and search engines to find your vector images, illustrations and patterns.
-
-<!--more-->
 
 The sites below all offer free and royalty-free images, even for commercial use with the Creative Commons CC0 license.
 But some also offer paid or licensed images. If in doubt, check the licenses.
@@ -46,6 +45,8 @@ But some also offer paid or licensed images. If in doubt, check the licenses.
 ## High resolution images
 
 **[Unsplash](http://www.unsplash.com)** High resolution wide images. Perfect for cover images.
+
+<!--more-->
 
 **[Gratisography](http://www.gratisography.com/)** Private collection of a professional photographer, available free of charge.
 
